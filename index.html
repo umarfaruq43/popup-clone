@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pop up</title>
+</head>
+
+<body>
+    <button type="button" class="btn-center" data-toggle="modal" data-target="#paymentModal">
+        Buy
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModal"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <div class="close-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </div>
+                    <h5 class="modal-title" id="paymentModal">
+                        Payment Details
+                    </h5>
+                    <p>Course : Master Surfacing Course in Catia V5</p>
+                    <p>
+                        Course Fee <b>399 </b>INR</span></span>
+                    </p>
+                </div>
+                <div class=" modal-form">
+
+                    <form action="" class="container">
+                        <div class="form-group ">
+                            <div class="row justify-content-between">
+                                <div class="col">
+                                    <div class="formgroup  ">
+                                        <label for="firstname" class=""> Name</label>
+                                        <input id="firstname" class="form-control input-group-lg" type="text"
+                                            name="firstname" title="Enter name" placeholder="Autofilled" />
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="formgroup  ">
+                                        <label for="surname" class="">Surname</label>
+                                        <input id="surname" class="form-control " type="text" name="firstname"
+                                            title="Enter Surname" placeholder="Autofilled" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-2">
+                            <div class="formgroup ">
+                                <label for="email" class="">E-mail</label>
+                                <input id="email" class="form-control " type="email" name="email"
+                                    title="Enter first name" placeholder="Autofilled" />
+                            </div>
+                        </div>
+
+
+                        <div class="form-group py-4">
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+
+
+                                    <select class="custom-selct form-control styled-select" id="inputGroupSelect01">
+                                        <option selected>+911</option>
+                                        <option value="1">+234</option>
+                                        <option value="2">+444</option>
+                                        <option value="3">+446</option>
+                                    </select>
+                                </div>
+
+                                <div class="col">
+                                    <div class="formgroup  ">
+
+                                        <input id="surname" class="form-control " type="number" name="firstname"
+                                            title="Enter Surname" placeholder="Enter your 10 digit phone no *" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <div class="row justify-content-between">
+
+                                <div class="col">
+                                    <div class="formgroup  ">
+
+                                        <input id="surname" class="form-control " type="number" name="refaral"
+                                            title="Enter refaral code" placeholder="Enter referral or coupon code" />
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <button class="form-control apply-btn">Apply</button>
+                                </div>
+                            </div>
+                            <small> <span><i class="fa-dark fas fa-circle-info"></i></span> You can’t reuse this code
+                                once it is applied.</small>
+                        </div>
+
+
+                        <div class="relative">
+                            <div class=" ">
+                                <div type="button" class="form-control d-flex justify-content-between " data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Why are you enrolling? * <span> <img src="caret.svg" alt=""> </span>
+                                </div>
+                                <div class="dropdown-menu ">
+                                    <div class=" container ">
+                                        <div class="row align-items-center">
+                                            <input type="checkbox" class="col-1">
+                                            <label for="" class="col"> I’m a fresher & looking to start my career in
+                                                design. </label>
+                                        </div>
+
+                                    </div>
+                                    <div class=" container">
+                                        <div class="row align-items-center">
+                                            <input type="checkbox" class="col-1">
+                                            <label for="" class="col"> I’m interested in design but working in other
+                                                field. </label>
+                                        </div>
+
+                                    </div>
+                                    <div class=" container">
+                                        <div class="row align-items-center">
+                                            <input type="checkbox" class="col-1">
+                                            <label for="" class="col"> I’m working in design & want to switch to domain.
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                    <div class=" container">
+                                        <div class="row align-items-center">
+                                            <input type="checkbox" class="col-1">
+                                            <label for="" class="col"> Working in same field but want to grow my career
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                    <div class=" container">
+                                        <div class="row align-items-center">
+                                            <input type="checkbox" class="col-1">
+                                            <label for="" class="col"> Other (Please mention) </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" container mt-4">
+                            <div class="row ">
+                                <input type="checkbox" class="col-1">
+                                <label for="" class="col small">I agree to the ISOPARA’S <a href="#" class="link">Terms & Privacy policy</a>.
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="right">
+                          <span class="small">  Use ISOPARA wallet ?</span> <span><input type="checkbox" class="col-1"></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="d-flex  w-100">
+                    <button type="button" class="submit-btn blue">
+                        Pay Now
+                    </button>
+                    <div  class="submit-btn d-flex flex-column justify-content-center align-items-center"> 
+                    <div>
+                        <img src="razor.png" alt="">
+                    </div>    
+                    <p class="small">Secure Payment System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
