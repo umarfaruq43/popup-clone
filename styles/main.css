@@ -185,3 +185,14 @@ label {
     margin: 0 auto;
   }
 }
+
+.razor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* * {
+  border: 1px solid red;
+} */
