@@ -128,8 +128,7 @@ select {
   padding-right: 2rem;
 }
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button,
-input {
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -193,13 +192,6 @@ label {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-* {
-  /* border: 1px solid red; */
-}
-.form-control {
-  /* font-size: 142px !important; */
 }
 
 .font {
