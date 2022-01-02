@@ -43,14 +43,14 @@
                             <div class="row justify-content-between">
                                 <div class="col">
                                     <div class="formgroup  ">
-                                        <label for="firstname" class=""> Name</label>
+                                        <label for="firstname"> Name</label>
                                         <input id="firstname" class="form-control input-group-lg" type="text"
                                             name="firstname" title="Enter name" placeholder="Autofilled" />
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="formgroup  ">
-                                        <label for="surname" class="">Surname</label>
+                                        <label for="surname">Surname</label>
                                         <input id="surname" class="form-control " type="text" name="firstname"
                                             title="Enter Surname" placeholder="Autofilled" />
                                     </div>
@@ -60,7 +60,7 @@
 
                         <div class="pt-2">
                             <div class="formgroup ">
-                                <label for="email" class="">E-mail</label>
+                                <label for="email">E-mail</label>
                                 <input id="email" class="form-control " type="email" name="email"
                                     title="Enter first name" placeholder="Autofilled" />
                             </div>
@@ -75,8 +75,14 @@
                                     <select class="custom-selct form-control styled-select" id="inputGroupSelect01">
                                         <option selected>+911</option>
                                         <option value="1">+234</option>
-                                        <option value="2">+444</option>
-                                        <option value="3">+446</option>
+                                        <option value="2">	+93</option>
+                                        <option value="3">+376  </option>
+                                        <option value="3">+54  </option>
+                                        <option value="3">+374  </option>
+                                        <option value="3">+297  </option>
+                                        <option value="3">+247  </option>
+                                        <option value="3">+672  </option>
+                                        <option value="3">+994  </option>
                                     </select>
                                 </div>
 
@@ -113,65 +119,72 @@
                             <div class=" ">
                                 <div type="button" class="form-control d-flex justify-content-between "
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Why are you enrolling? * <span> <img src="caret.svg" alt=""> </span>
+                                    <span class="font">Why are you enrolling? *</span> <span> <img src="caret.svg"
+                                            alt=""> </span>
                                 </div>
                                 <div class="dropdown-menu ">
                                     <div class=" container ">
-                                        <div class="row align-items-center">
-                                            <input name="reason" id="reason1" type="radio" class="col-1">
-                                            <label for="reason1" class="col"> I’m a fresher & looking to start my career
+                                        <div class="flex">
+                                            <div><input name="reason" id="reason1" type="radio"></div>
+                                            <label for="reason1"> I’m a fresher & looking to start my career
                                                 in
                                                 design. </label>
                                         </div>
 
                                     </div>
                                     <div class=" container">
-                                        <div class="row align-items-center">
-                                            <input name="reason" id="reason2" type="radio" class="col-1">
-                                            <label for="reason2" class="col"> I’m interested in design but working in
+                                        <div class="flex">
+                                            <div><input name="reason" id="reason2" type="radio"></div>
+                                            <label for="reason2"> I’m interested in design but working in
                                                 other
                                                 field. </label>
                                         </div>
 
                                     </div>
                                     <div class=" container">
-                                        <div class="row align-items-center">
-                                            <input name="reason" type="radio" id="reason3" class="col-1">
-                                            <label for="" class="col"> I’m working in design & want to switch to domain.
+                                        <div class="flex">
+                                            <div><input name="reason" type="radio" id="reason3"></div>
+                                            <label for=""> I’m working in design & want to switch to domain.
                                             </label>
                                         </div>
 
                                     </div>
                                     <div class=" container">
-                                        <div class="row align-items-center">
-                                            <input name="reason" type="radio" id="reason4" class="col-1">
-                                            <label for="" class="col"> Working in same field but want to grow my career
+                                        <div class="flex">
+                                            <div><input name="reason" type="radio" id="reason4"></div>
+                                            <label for=""> Working in same field but want to grow my career
                                             </label>
                                         </div>
 
                                     </div>
                                     <div class=" container">
-                                        <div class="row align-items-center">
-                                            <input name="reason" type="radio" class="col-1">
-                                            <label for="" class="col"> Other (Please mention) </label>
+                                        <div class="flex">
+                                            <div><input name="reason" type="radio"></div>
+                                            <label for="" class="pt-2"> Other (Please mention) </label>
                                         </div>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class=" container mt-4">
-                            <div class="row ">
-                                <input type="checkbox" class="col-1">
-                                <label for="" class="col small">I agree to the ISOPARA’S <a href="#" class="link">Terms
+                        
+
+
+                        <div class="form-check form-check-inline mt-4 container">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <!-- <label class="form-check-label" for="inlineCheckbox1">1</label> -->
+                             <label for="" class="small ml-2 form-check-label">I agree to the ISOPARA’S <a href="#" class="link">Terms
                                         & Privacy policy</a>.
                                 </label>
-                            </div>
-
                         </div>
-                        <div class="right">
+
+
+                        
+
+
+                        <div class="right flex justify-content-end">
                             <span class="small"> Use ISOPARA wallet ?</span> <span><input type="checkbox"
-                                    class="col-1"></span>
+                                    class=""></span>
                         </div>
                     </form>
                 </div>
@@ -183,9 +196,9 @@
 
                     <div class="submit-btn razor">
                         <div class="pt-3">
-                            
-                                <img src="razor.png" alt="">
-                            
+
+                            <img src="razor.png" alt="">
+
                             <p class="small">Secure Payment System</p>
                         </div>
                     </div>

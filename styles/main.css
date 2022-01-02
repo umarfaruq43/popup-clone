@@ -128,10 +128,12 @@ select {
   padding-right: 2rem;
 }
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-inner-spin-button,
+input {
   -webkit-appearance: none;
   margin: 0;
 }
+
 button {
   cursor: pointer;
 }
@@ -160,7 +162,7 @@ label {
 }
 
 .right {
-  text-align: right;
+  text-align: right !important;
 }
 .submit-btn:focus,
 .submit-btn {
@@ -193,9 +195,27 @@ label {
   cursor: pointer;
 }
 
-/* * {
-  border: 1px solid red;
-} */
+* {
+  /* border: 1px solid red; */
+}
 .form-control {
   /* font-size: 142px !important; */
+}
+
+.font {
+  font-size: 0.8rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.flex label {
+  display: inline-block;
+}
+.absolute {
+  position: absolute;
+  right: 7rem;
 }
