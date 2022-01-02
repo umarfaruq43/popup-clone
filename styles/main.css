@@ -196,3 +196,6 @@ label {
 /* * {
   border: 1px solid red;
 } */
+.form-control {
+  font-size: 14px !important;
+}
