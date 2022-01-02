@@ -105,7 +105,7 @@ textarea {
   box-shadow: none !important;
   border: 1px solid #ccc !important;
   border-radius: 4px !important;
-  font-size: 14px !important;
+  font-size: 0.8rem !important;
 }
 
 /* form > div {
